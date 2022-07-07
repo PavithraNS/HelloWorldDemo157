@@ -11,6 +11,7 @@ namespace HeloWorldDemo171Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to 171Batch");
+            Console.WriteLine("After Update");
             Console.ReadLine();
         }
     }
