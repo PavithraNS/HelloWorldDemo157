@@ -14,6 +14,7 @@ namespace HeloWorldDemo171Batch
             Console.WriteLine("After Update");
             Console.WriteLine("Introducing newlines of code from developer2 ");
             Console.WriteLine("Modifying in local repository");
+            Console.WriteLine("Changes from remote master");
             Console.ReadLine();
         }
     }
