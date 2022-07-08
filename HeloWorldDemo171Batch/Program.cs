@@ -11,10 +11,15 @@ namespace HeloWorldDemo171Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to 171Batch");
-            Console.WriteLine("After Update");
-            Console.WriteLine("Introducing newlines of code from developer2 ");
-            Console.WriteLine("Modifying in local repository");
-            Console.WriteLine("Changes from remote master");
+            //Console.WriteLine("After Update");
+            //Console.WriteLine("Introducing newlines of code from developer2 ");
+            //Console.WriteLine("Modifying in local repository");
+            //Console.WriteLine("Changes from remote master");
+            Human kavitha = new Human();
+            kavitha.HumanDetails();
+            Human harish = new Human();
+            harish.HumanDetails();
+            Human.Walk();
             Console.ReadLine();
         }
     }
