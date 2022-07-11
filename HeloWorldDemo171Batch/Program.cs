@@ -20,11 +20,12 @@ namespace HeloWorldDemo171Batch
             //Human harish = new Human();
             //harish.HumanDetails();
             //Human.Walk();
-            Console.WriteLine("Please enter 4digit number"); //1234
-            //converting from string into integer datatype
-            int number = Convert.ToInt32(Console.ReadLine()); //"1234"
-            ReverseNumber.MakeItReverse(number);
-            ReverseNumber.SimpleWhileLoop();
+            //Console.WriteLine("Please enter 4digit number"); //1234
+            ////converting from string into integer datatype
+            //int number = Convert.ToInt32(Console.ReadLine()); //"1234"
+            //ReverseNumber.MakeItReverse(number);
+            //ReverseNumber.SimpleWhileLoop();
+            Pholyndrome.FindPholydrome();
             Console.ReadLine();
         }
     }

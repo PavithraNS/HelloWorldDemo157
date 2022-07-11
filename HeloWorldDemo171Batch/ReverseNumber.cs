@@ -9,7 +9,7 @@ namespace HeloWorldDemo171Batch
     public class ReverseNumber
     {
         //syntax access-modifier|static return-type methodName
-        public static void MakeItReverse(int number) //1234
+        public static int MakeItReverse(int number) //1234
         {
             int remainder = 0, reverse = 0;
             while (number != 0)
@@ -19,6 +19,7 @@ namespace HeloWorldDemo171Batch
                 number = number / 10;
             }
             Console.WriteLine("After reverse:{0}", reverse);
+            return reverse;
         }
 
         public static void SimpleWhileLoop()
