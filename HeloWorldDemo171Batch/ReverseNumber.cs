@@ -27,7 +27,7 @@ namespace HeloWorldDemo171Batch
             int i = 0;
             while (i < 5)
             {
-                Console.WriteLine(i);
+                Console.Write(i+" ");
                 i++;
             }
         }
