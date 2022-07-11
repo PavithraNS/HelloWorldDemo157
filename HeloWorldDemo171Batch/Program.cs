@@ -11,7 +11,7 @@ namespace HeloWorldDemo171Batch
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to 171Batch");
-            Console.WriteLine("Please choose number between 1 to 3 as shown below\n1:Human Program\n2:Reverse Program.\n3:Pholyndrome program.");
+            Console.WriteLine("Please choose number between 1 to 4 as shown below\n1:Human Program\n2:Reverse Program.\n3:Pholyndrome program.\n4:Fibonocci Series");
             int option = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine("After Update");
             //Console.WriteLine("Introducing newlines of code from developer2 ");
@@ -35,6 +35,11 @@ namespace HeloWorldDemo171Batch
                     int number = Convert.ToInt32(Console.ReadLine()); //"1234"
                     ReverseNumber.MakeItReverse(number);
                     ReverseNumber.SimpleWhileLoop();
+                    break;
+                case 4:
+                    Console.WriteLine("Please enter number of series");
+                    int numOfSeries = Convert.ToInt32(Console.ReadLine());
+                    Fibonocci.FindSeries(numOfSeries);
                     break;
                 default:
                     // code block
